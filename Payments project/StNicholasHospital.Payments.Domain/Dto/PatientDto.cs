@@ -16,6 +16,7 @@ namespace StNicholasHospital.Payments.Domain.Dto
         public DateTime EntryDate { get; set; }
         public string CreatedBy { get; set; }
         public decimal TotalPayment { get; set; }
+        public int Amount {get; set;}
     }
 }
     
